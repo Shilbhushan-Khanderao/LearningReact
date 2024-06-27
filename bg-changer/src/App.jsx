@@ -14,6 +14,7 @@ function App() {
         className="w-full h-screen duration-200"
         style={{ backgroundColor: show === true ? color.hex : colorChange }}
       >
+        <h1>Background Changer</h1>
         {show && (
           <div className="fixed flex top-5 w-full justify-center ">
             <div className="w-1/3">
